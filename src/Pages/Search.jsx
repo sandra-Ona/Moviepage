@@ -72,6 +72,7 @@ export default function Search() {
                   <MediaCard key={movies.show.id} {...movies.show} />
                 ))}
               </Masonry>
+
             </ResponsiveMasonry>
           )}
         </>

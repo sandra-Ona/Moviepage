@@ -1,69 +1,54 @@
 @import url('https://fonts.cdnfonts.com/css/graphik');
-                
 
- *{font-family: 'Graphik', sans-serif;
+* {
+  font-family: 'Graphik', sans-serif;
   text-decoration: none !important;
- }
-.Navlocker{
-   background-color: rgb(23 23 23);
 }
-.Cont{
-   background-image: linear-gradient(to right ,#733a5e, #cc7873, #301b1f);
+.Navlocker {
+  background-color: rgb(23 23 23);
 }
-.Hero1{
-   overflow-x: scroll;
-   overflow-y: hidden;
-   scroll-behavior: smooth;
+.Cont {
+  background-image: linear-gradient(to right, #733a5e, #cc7873, #301b1f);
 }
-
-.scrollbody::-webkit-scrollbar{
-   display: none !important;;
+.Hero1 {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
 }
 
-.no-outline:focus{
-   outline: none;
- }
-
-.HeroPcon{
-   width: 200px!important;
- 
+.scrollbody::-webkit-scrollbar {
+  display: none !important;
 }
-.foot{
-   background-color: whitesmoke;
+
+.no-outline:focus {
+  outline: none;
+}
+
+.HeroPcon {
+  width: 200px !important;
+}
+.foot {
+  background-color: whitesmoke;
+}
+
+.bgGradient {
+  background-image: linear-gradient(to right, #312e81, transparent);
 }
 
 /* .foot1{
    margin-right: 70px;
 } */
 
-@media screen and (min-width: 768px){
-   .HeroPage{
-      width: 270px!important;
-   }
-
+@media screen and (min-width: 768px) {
+  .HeroPage {
+    width: 270px !important;
+  }
+  .imgAdjust {
+    object-fit: cover;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* .tv-show{
+/* .tv-show{
     color:black
  }
  .tvshow{

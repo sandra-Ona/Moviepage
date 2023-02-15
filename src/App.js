@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './Pages/Home'
 import Search from './Pages/Search'
 import Footer from './components/Footer'
+import Tvid from './Pages/Tvid'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navhead />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Search" element={<Search />} />
+        <Route path="Search" element={<Search />} />
+        <Route path="tvshow/:tvid" element={<Tvid />} />
       </Routes>
       <Footer />
     </>
